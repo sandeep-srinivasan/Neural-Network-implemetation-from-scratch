@@ -19,9 +19,13 @@ The Network consists with 5 binary (+1/-1) input elements, 5 hidden units for th
 2. Implemented an RBF network for one input variable, one output variable and Gaussian basis functions. 
 
 How it works:
+
 ● Generated a set of 75 data points by sampling the function, h(x) = 0.5 + 0.4sin(3πx) with added uniform noise in the interval [-0.1, 0.1] and with x values taken randomly from a uniform distribution in the interval [0.0, 1.0]. 
+
 ● Determined Gaussian centers by your implementation of the K-means algorithm, and set the variance of each cluster according to the variance of the cluster. If a cluster contains only one sample point, used the mean variance of all the other clusters as its variance.
+
 ● Used the Least Mean Square rule for weight update. 
+
 ● Varied the number of bases in the range of 3, 6, 8, 12, and 16.
 
 ![image](https://user-images.githubusercontent.com/42225976/156085883-64ec47c2-adcf-4bcd-b5ee-bde3bca87289.png)
