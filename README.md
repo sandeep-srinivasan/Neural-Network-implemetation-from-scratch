@@ -11,6 +11,6 @@ absolute error (difference) of 0.05 is reached for every input pattern. Other im
 
 ● Used tanh with a=1 (i.e.,) as the activation function for all units.
 
-● Included a momentum term in the weight update with, α=0.8 and report its effect on the speed of training for each value of α.
+● Included a momentum term in the weight update with, α=0.8 and report its effect on the speed of training for each value of η.
 
 ● Replaced the tanh function with another nonlinearity which is leaky relu.
