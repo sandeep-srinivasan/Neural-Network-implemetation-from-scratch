@@ -1,7 +1,9 @@
 # Neural-Network-implemetation-from-scratch
 Neural network implementation using numpy, sklearn, matplotlib etc
 
-1. Implemented a two-layer perceptron with the backpropagation algorithm to solve the parity problem. The desired output for the parity problem is 1 if an input pattern contains an odd number of 1's and -1 otherwise.
+# 1. Multilayer Perceptron
+
+Implemented a two-layer perceptron with the backpropagation algorithm to solve the parity problem. The desired output for the parity problem is 1 if an input pattern contains an odd number of 1's and -1 otherwise.
 
 How it works:
 The Network consists with 5 binary (+1/-1) input elements, 5 hidden units for the first layer, and one output unit for the second layer. The learning procedure is stopped when     an absolute error (difference) of 0.05 is reached for every input pattern. Other implementation details are:
@@ -16,7 +18,9 @@ The Network consists with 5 binary (+1/-1) input elements, 5 hidden units for th
 
 ![image](https://user-images.githubusercontent.com/42225976/156085331-3ec1daa9-4a57-4a9f-a6ac-0339380b879c.png)
 
-2. Implemented an RBF network for one input variable, one output variable and Gaussian basis functions. 
+# 2. Radial Basis Functions (RBF)
+
+Implemented an RBF network for one input variable, one output variable and Gaussian basis functions. 
 
 How it works:
 
@@ -32,7 +36,9 @@ How it works:
 
 ![image](https://user-images.githubusercontent.com/42225976/156085741-145bc97e-48f9-4d6f-ab7f-2da4c7f318f1.png)
 
-3. Developed a Restricted Boltzmann Machine to learn a collaborative filter for predicting ice cream preferences.
+# 3. Restricted Boltzmann Machine
+
+Developed a Restricted Boltzmann Machine to learn a collaborative filter for predicting ice cream preferences.
 The dataset consists of 120 different examples for 10 icecream kinds.
 
 How it works:
